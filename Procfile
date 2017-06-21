@@ -1,0 +1,1 @@
+web: cd $HOME/heroku_output/Sage.CalcProvider && ASPNETCORE_URLS='http://+:\$PORT' && dotnet ./Sage.CalcProvider.dll --server.urls http://+:$PORT ${CORE_ENVIRONMENT}
