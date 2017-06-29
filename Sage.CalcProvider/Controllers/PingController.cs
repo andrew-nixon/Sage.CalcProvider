@@ -14,7 +14,7 @@ namespace spcs.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok(new string[] { Assembly.GetEntryAssembly().GetName().Name, "Ping", "GET", DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss:ms ") });
+            return Ok(new string[] { Assembly.GetEntryAssembly().GetName().Name, "Ping1", "GET", DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss:ms ") });
         }
         
     }
