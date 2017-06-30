@@ -1,0 +1,17 @@
+{
+  "name": "Sage.CalcProvider",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "https://www.github.com/andrew-nixon/dotnet-buildpack"
+    }
+  ]
+}
